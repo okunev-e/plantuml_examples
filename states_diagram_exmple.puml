@@ -1,0 +1,104 @@
+@startuml request_statuses_example
+'Версия: 1.0
+'Автор: Окунев Е.Е. (okunev.evgeni@gmail.com)
+
+hide empty description
+
+skinparam BackgroundColor SeaShell
+skinparam StateBackgroundColor LightSkyBlue
+skinparam StateBorderColor RoyalBlue
+skinparam StateFontStyle bold
+skinparam NoteFontSize 9
+skinparam NoteBackgroundColor Cornsilk
+skinparam ArrowColor RoyalBlue
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+
+state "Новая\nnew" as NewState
+state "Ожидает обработки\nwaiting" as WatingState #DarkGray
+'Примечание пришлось положить внутрь статуса, т.к. ломалась общая картинка
+state "Отозвано\ncalled_back" as CalledBackState #DarkGray : Если предыдущий шаг\n\
+был первым в маршруте
+
+state "Отклонено\nrejected" as RejectedState #Tomato
+state "В работе у HR\nin_progress" as InProgressState  #Darkorange
+state "Выполнено\nresolved" as ResolvedState #SpringGreen
+
+'Статусы ниже собраны в группу, 
+'т.к. появляются только при определенных условиях
+state "Если маршрут включен" as WithRoutes {
+    state "Начало настраиваемого маршрута" as RouteStart <<entryPoint>>
+    state "На согласовании у HR\nfor_hr_approval" as HRApproveState #Darkorange
+    state "На согласовании\nу Руководителя\nfor_manager_approval" as ManagerApproveState #Darkorange
+    state "Заявление согласовано\nready_for_work" as ReadyForWorkState  #SpringGreen
+    state "Конец настраиваемого маршрута" as RouteEnd <<exitPoint>>
+    RouteStart -> HRApproveState
+    RouteStart -> ManagerApproveState
+    HRApproveState -down-> ManagerApproveState
+    ManagerApproveState -down-> ReadyForWorkState
+    HRApproveState --> ReadyForWorkState
+    ReadyForWorkState -down-> RouteEnd
+    
+}
+
+[*] -right-> NewState
+[*] -> RouteStart
+[*] --> WatingState
+
+NewState --> WatingState
+NewState -down-> RouteStart
+
+WatingState ---> RejectedState
+WatingState -down-> CalledBackState
+WatingState --> InProgressState
+
+InProgressState -right-> RejectedState
+InProgressState -down-> ResolvedState
+
+RouteEnd --> RejectedState
+RouteEnd -down-> CalledBackState
+RouteEnd -left---> InProgressState
+
+RejectedState -down--> [*]
+CalledBackState -> [*]
+ResolvedState -> [*]
+
+note right of NewState
+Только для сервиса 
+«<i>Автоматическое создание заявок</i>»
+end note
+
+note left of WatingState
+Если у сервиса выключена 
+настройка маршрутов
+<b>ИЛИ</b>
+<b>(</b>Если включена
+<b>И</b>
+в маршруте все настраиваемые 
+шаги выключены<b>)</b>
+end note
+
+note right of HRApproveState
+Если при создании заявки 
+у сервиса была включена 
+настройка машрута
+<b>И</b>
+в маршруте (из настроек или по умолчанию)
+есть шаг согласования HR
+end note
+
+note right of ManagerApproveState
+Если в заявке сохранен маршрут, 
+который содержит шаг 
+согласования Руководителем
+(шаг появится аналогично примечанию выше)
+end note
+
+legend right
+Цвета статусов
+соответствуют дизайну UI
+end legend
+
+@enduml
