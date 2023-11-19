@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1006px" preserveAspectRatio="none" style="width:859px;height:1006px;background:#FFF5EE;" version="1.1" viewBox="0 0 859 1006" width="859px" zoomAndPan="magnify"><defs/><g><!--MD5=[7015f23d54ee669ada4d1c0a59cfdec7]
+cluster WithRoutes--><g id="cluster_WithRoutes"><path d="M390.5,118 L604.5,118 A12.5,12.5 0 0 1 617,130.5 L617,145.6094 L378,145.6094 L378,130.5 A12.5,12.5 0 0 1 390.5,118 " fill="#87CEFA" style="stroke:#87CEFA;stroke-width:1.0;"/><rect fill="none" height="498.5" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="239" x="378" y="118"/><line style="stroke:#4169E1;stroke-width:0.5;" x1="378" x2="617" y1="145.6094" y2="145.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="414" y="137.5332">Если маршрут включен</text></g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="247" x="315.5" y="96.9238">Начало настраиваемого маршрута</text><ellipse cx="439" cy="118" fill="#F1F1F1" rx="6" ry="6" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#FF8C00" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="167" x="394.5" y="200.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="157" x="399.5" y="220.0332">На согласовании у HR</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="421.5" y="237.6426">for_hr_approval</text><rect fill="#FF8C00" height="62.8281" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="169" x="431.5" y="322"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="455" y="341.5332">На согласовании</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="460.5" y="359.1426">у Руководителя</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="159" x="436.5" y="376.752">for_manager_approval</text><rect fill="#00FF7F" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="183" x="394.5" y="467"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="399.5" y="486.5332">Заявление согласовано</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="431.5" y="504.1426">ready_for_work</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="239" x="315.5" y="637.0332">Конец настраиваемого маршрута</text><ellipse cx="435" cy="616.5" fill="#F1F1F1" rx="6" ry="6" style="stroke:#181818;stroke-width:1.5;"/><line style="stroke:#181818;stroke-width:1.5;" x1="439.3891" x2="431.6109" y1="620.8891" y2="613.1109"/><line style="stroke:#181818;stroke-width:1.5;" x1="439.3891" x2="431.6109" y1="613.1109" y2="620.8891"/><rect fill="#87CEFA" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="54" x="344" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="349" y="26.5332">Новая</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="29" x="356.5" y="44.1426">new</text><rect fill="#A9A9A9" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="151" x="205.5" y="467"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="210.5" y="486.5332">Ожидает обработки</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="256" y="504.1426">waiting</text><g id="CalledBackState"><rect fill="#A9A9A9" height="90.4375" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="200" x="347" y="699"/><line style="stroke:#4169E1;stroke-width:0.5;" x1="347" x2="547" y1="744.2188" y2="744.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="413.5" y="718.5332">Отозвано</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="405.5" y="736.1426">called_back</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="162" x="352" y="763.752">Если предыдущий шаг</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="352" y="781.3613">был первым в маршруте</text></g><rect fill="#FF6347" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="86" x="226" y="721.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="231" y="741.0332">Отклонено</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="239.5" y="758.6426">rejected</text><rect fill="#FF8C00" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="109" x="118.5" y="594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="123.5" y="613.5332">В работе у HR</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="130.5" y="631.1426">in_progress</text><rect fill="#00FF7F" height="45.2188" rx="12.5" ry="12.5" style="stroke:#4169E1;stroke-width:0.5;" width="92" x="99" y="721.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="104" y="741.0332">Выполнено</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="113.5" y="758.6426">resolved</text><ellipse cx="299" cy="29.5" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="269" cy="920" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="269.5" cy="920.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="elem_GMN39"><path d="M433.5,13 L433.5,25.5 L398.13,29.5 L433.5,33.5 L433.5,45.6406 A0,0 0 0 0 433.5,45.6406 L610.5,45.6406 A0,0 0 0 0 610.5,45.6406 L610.5,23 L600.5,13 L433.5,13 A0,0 0 0 0 433.5,13 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M600.5,13 L600.5,23 L610.5,23 L600.5,13 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="86" x="439.5" y="27.3428">Только для сервиса</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="5" x="439.5" y="38.6631">«</text><text fill="#000000" font-family="sans-serif" font-size="9" font-style="italic" lengthAdjust="spacing" textLength="146" x="444.5" y="38.6631">Автоматическое создание заявок</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="5" x="590.5" y="38.6631">»</text></g><g id="elem_GMN42"><path d="M6,445 L6,534.2422 A0,0 0 0 0 6,534.2422 L170,534.2422 A0,0 0 0 0 170,534.2422 L170,493.5 L205.24,489.5 L170,485.5 L170,455 L160,445 L6,445 A0,0 0 0 0 6,445 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M160,445 L160,455 L170,455 L160,445 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="120" x="12" y="459.3428">Если у сервиса выключена</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="94" x="12" y="470.6631">настройка маршрутов</text><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="20" x="12" y="481.9834">ИЛИ</text><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="3" x="12" y="493.3037">(</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="66" x="15" y="493.3037">Если включена</text><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="7" x="12" y="504.624">И</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="140" x="12" y="515.9443">в маршруте все настраиваемые</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="71" x="12" y="527.2646">шаги выключены</text><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="3" x="83" y="527.2646">)</text></g><g id="elem_GMN45"><path d="M634,184 L634,219 L561.73,223 L634,227 L634,261.9219 A0,0 0 0 0 634,261.9219 L848,261.9219 A0,0 0 0 0 848,261.9219 L848,194 L838,184 L634,184 A0,0 0 0 0 634,184 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M838,184 L838,194 L848,194 L838,184 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="113" x="640" y="198.3428">Если при создании заявки</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="114" x="640" y="209.6631">у сервиса была включена</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="83" x="640" y="220.9834">настройка машрута</text><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="7" x="640" y="232.3037">И</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="193" x="640" y="243.624">в маршруте (из настроек или по умолчанию)</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="115" x="640" y="254.9443">есть шаг согласования HR</text></g><g id="elem_GMN48"><path d="M635.5,326 L635.5,349.5 L600.61,353.5 L635.5,357.5 L635.5,381.2813 A0,0 0 0 0 635.5,381.2813 L852.5,381.2813 A0,0 0 0 0 852.5,381.2813 L852.5,336 L842.5,326 L635.5,326 A0,0 0 0 0 635.5,326 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M842.5,326 L842.5,336 L852.5,336 L842.5,326 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="148" x="641.5" y="340.3428">Если в заявке сохранен маршрут,</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="94" x="641.5" y="351.6631">который содержит шаг</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="129" x="641.5" y="362.9834">согласования Руководителем</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="196" x="641.5" y="374.3037">(шаг появится аналогично примечанию выше)</text></g><!--MD5=[086448bf7fc5e6b49f4221a862b12793]
+link RouteStart to HRApproveState--><g id="link_RouteStart_HRApproveState"><path d="M440.88,123.97 C445.7,136.7 458.77,171.22 468.04,195.69 " fill="none" id="RouteStart-to-HRApproveState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="469.83,200.44,470.379,190.6065,468.0572,195.7648,462.8988,193.443,469.83,200.44" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[33db428b0ecacebc9e0bab3eb52e5c9b]
+link RouteStart to ManagerApproveState--><g id="link_RouteStart_ManagerApproveState"><path d="M444.9,119.09 C467.2,119.78 546.69,125.56 579,172.5 C610.06,217.63 574.65,279.62 545.72,317.82 " fill="none" id="RouteStart-to-ManagerApproveState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="542.58,321.9,551.2289,317.1887,545.621,317.931,544.8786,312.3231,542.58,321.9" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[aab919102a4e4510a8a5707a0fcedcc4]
+link HRApproveState to ManagerApproveState--><g id="link_HRApproveState_ManagerApproveState"><path d="M484.36,245.51 C490.1,264.9 498.64,293.81 505.41,316.69 " fill="none" id="HRApproveState-to-ManagerApproveState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="506.91,321.77,508.1953,312.0054,505.493,316.975,500.5233,314.2726,506.91,321.77" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[3b9cb8fb33c49b82e28623f1a8b24596]
+link ManagerApproveState to ReadyForWorkState--><g id="link_ManagerApproveState_ReadyForWorkState"><path d="M509.12,385.24 C503.96,408.28 496.97,439.49 492.03,461.55 " fill="none" id="ManagerApproveState-to-ReadyForWorkState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="490.89,466.67,496.7691,458.7684,491.9882,461.7921,488.9645,457.0112,490.89,466.67" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[6d7f4219772855ae6cf2d2c910389855]
+link HRApproveState to ReadyForWorkState--><g id="link_HRApproveState_ReadyForWorkState"><path d="M458.33,245.84 C442.9,264.54 422.64,292.98 414,322 C406.01,348.84 405.62,358.28 414,385 C423.33,414.76 444.59,443.46 461.6,463.06 " fill="none" id="HRApproveState-to-ReadyForWorkState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="464.94,466.85,461.9859,457.4546,461.6324,463.1004,455.9866,462.7468,464.94,466.85" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[ae9302714b1918b604a912b9ac52f43a]
+link ReadyForWorkState to RouteEnd--><g id="link_ReadyForWorkState_RouteEnd"><path d="M477.12,512.27 C465.9,539.76 447.1,585.84 438.96,605.8 " fill="none" id="ReadyForWorkState-to-RouteEnd" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="437.04,610.49,444.1581,603.6832,438.9387,605.8645,436.7573,600.6452,437.04,610.49" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[feee7660b268c019d122b5088f595ff6]
+link *start to NewState--><g id="link_*start_NewState"><path d="M309.12,29.5 C319,29.5 328.88,29.5 338.76,29.5 " fill="none" id="*start-to-NewState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="343.93,29.5,334.93,25.5,338.93,29.5,334.93,33.5,343.93,29.5" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[d4113f5d32742120566181b04a09dd64]
+link *start to RouteStart--><g id="link_*start_RouteStart"><path d="M306.33,36.84 C311.64,41.29 319.06,47.28 326,52 C362.76,77 409.64,101.91 429.47,112.14 " fill="none" id="*start-to-RouteStart" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="434.11,114.52,427.9269,106.8539,429.6609,112.2384,424.2764,113.9724,434.11,114.52" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[8b52caaa3d0c100d7a34219ba4c69ea9]
+link *start to WatingState--><g id="link_*start_WatingState"><path d="M298.64,39.65 C296.51,93.85 285.52,373.52 282.05,461.78 " fill="none" id="*start-to-WatingState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="281.85,466.82,286.2065,457.9871,282.0498,461.824,278.2129,457.6673,281.85,466.82" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[90de6588425cb6373ad67d9cb80ba53f]
+link NewState to WatingState--><g id="link_NewState_WatingState"><path d="M368.5,52.29 C361.86,108.09 342.27,260.55 313,385 C306.74,411.61 297.27,441.37 290.26,462.12 " fill="none" id="NewState-to-WatingState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="288.62,466.93,295.3132,459.705,290.2354,462.1981,287.7422,457.1203,288.62,466.93" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[057ab00510fc559fa2a00ff45361a03f]
+link NewState to RouteStart--><g id="link_NewState_RouteStart"><path d="M388.16,52.33 C402.6,70.69 422.45,95.95 432.55,108.79 " fill="none" id="NewState-to-RouteStart" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="435.79,112.92,433.3764,103.3715,432.7015,108.9879,427.0851,108.313,435.79,112.92" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[812a3e42fb0179de86dad5d2a6d63823]
+link WatingState to RejectedState--><g id="link_WatingState_RejectedState"><path d="M279.98,512.03 C277.79,557.94 272.69,665.39 270.29,715.88 " fill="none" id="WatingState-to-RejectedState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="270.04,721.17,274.4731,712.3753,270.2833,716.1759,266.4826,711.986,270.04,721.17" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[eac4440426ac404ff71a91961156f0fa]
+link WatingState to CalledBackState--><g id="link_WatingState_CalledBackState"><path d="M294.05,512.12 C311.73,541.23 344.49,594.51 374,639 C386.14,657.3 399.88,677.1 412.14,694.46 " fill="none" id="WatingState-to-CalledBackState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="415.22,698.82,413.2566,689.1688,412.3192,694.7475,406.7406,693.8101,415.22,698.82" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[169fa205b41f1718e04528fad5b5f639]
+link WatingState to InProgressState--><g id="link_WatingState_InProgressState"><path d="M262.19,512.27 C243.45,533.96 214.7,567.24 194.93,590.11 " fill="none" id="WatingState-to-InProgressState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="191.6,593.98,200.5111,589.7857,194.8692,590.1968,194.4581,584.555,191.6,593.98" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[12b898ce1dfe63afc68666829ff61540]
+link InProgressState to RejectedState--><g id="link_InProgressState_RejectedState"><path d="M189.5,639.07 C206.06,660.71 231.56,694.05 249.19,717.11 " fill="none" id="InProgressState-to-RejectedState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="252.39,721.29,250.0914,711.7131,249.349,717.321,243.7411,716.5787,252.39,721.29" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[3d38dad845f2296015093e51d03b02b0]
+link InProgressState to ResolvedState--><g id="link_InProgressState_ResolvedState"><path d="M168.19,639.07 C163.42,660.45 156.11,693.22 150.97,716.24 " fill="none" id="InProgressState-to-ResolvedState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="149.84,721.29,155.702,713.3757,150.9277,716.4097,147.8936,711.6354,149.84,721.29" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[e2b347a6269f3a3805c88bb24e5cb3ac]
+link RouteEnd to RejectedState--><g id="link_RouteEnd_RejectedState"><path d="M430.56,620.86 C412.51,634.5 343.65,686.56 301.87,718.15 " fill="none" id="RouteEnd-to-RejectedState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="297.67,721.33,307.265,719.1081,301.6631,718.3209,302.4504,712.7191,297.67,721.33" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[1603fc7d0d7c86e9f6cb8befd2f18e29]
+link RouteEnd to CalledBackState--><g id="link_RouteEnd_CalledBackState"><path d="M435.49,622.58 C436.64,634.62 439.64,666 442.29,693.7 " fill="none" id="RouteEnd-to-CalledBackState" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="442.78,698.83,445.9125,689.4926,442.308,693.8523,437.9482,690.2478,442.78,698.83" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[13cb210c83e22edabbef4fdaf9901141]
+reverse link InProgressState to RouteEnd--><g id="link_InProgressState_RouteEnd"><path d="M232.86,616.5 C298.22,616.5 363.57,616.5 428.93,616.5 " fill="none" id="InProgressState-backto-RouteEnd" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="227.75,616.5,236.75,620.5,232.75,616.5,236.75,612.5,227.75,616.5" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[ee72e26f726e5e14872f84d37ff485fe]
+link RejectedState to *end--><g id="link_RejectedState_*end"><path d="M269,766.69 C269,802.71 269,873.93 269,904.5 " fill="none" id="RejectedState-to-*end" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="269,909.72,273,900.72,269,904.72,265,900.72,269,909.72" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[b6aada33c093eafa009c8a055f0f0fd9]
+link CalledBackState to *end--><g id="link_CalledBackState_*end"><path d="M401.62,789.36 C360.53,829.52 302.96,885.8 279.54,908.7 " fill="none" id="CalledBackState-to-*end" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="275.82,912.33,285.0615,908.9248,279.4052,908.8448,279.4852,903.1885,275.82,912.33" style="stroke:#4169E1;stroke-width:1.0;"/></g><!--MD5=[a95ee70ebdba4244824ce003fd98583b]
+link ResolvedState to *end--><g id="link_ResolvedState_*end"><path d="M160.45,766.69 C186.83,803.7 239.69,877.87 260.4,906.93 " fill="none" id="ResolvedState-to-*end" style="stroke:#4169E1;stroke-width:1.0;"/><polygon fill="#4169E1" points="263.44,911.19,261.4766,901.5388,260.5392,907.1175,254.9606,906.1801,263.44,911.19" style="stroke:#4169E1;stroke-width:1.0;"/></g><rect fill="#FFE4E1" height="47.2188" id="_legend" rx="7.5" ry="7.5" style="stroke:#D87093;stroke-width:1.0;" width="183" x="654.5" y="943"/><text fill="#D87093" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="660.5" y="963.5332">Цвета статусов</text><text fill="#D87093" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="660.5" y="981.1426">соответствуют дизайну UI</text><!--MD5=[ccc58ca675842fdb12fba7b228b58772]
+@startuml request_statuses_example
+'Версия: 1.0
+'Автор: Окунев Е.Е. (okunev.evgeni@gmail.com)
+
+hide empty description
+
+skinparam BackgroundColor SeaShell
+skinparam StateBackgroundColor LightSkyBlue
+skinparam StateBorderColor RoyalBlue
+skinparam StateFontStyle bold
+skinparam NoteFontSize 9
+skinparam NoteBackgroundColor Cornsilk
+skinparam ArrowColor RoyalBlue
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+
+state "Новая\nnew" as NewState
+state "Ожидает обработки\nwaiting" as WatingState #DarkGray
+'Примечание пришлось положить внутрь статуса, т.к. ломалась общая картинка
+state "Отозвано\ncalled_back" as CalledBackState #DarkGray : Если предыдущий шаг\nбыл первым в маршруте
+
+state "Отклонено\nrejected" as RejectedState #Tomato
+state "В работе у HR\nin_progress" as InProgressState  #Darkorange
+state "Выполнено\nresolved" as ResolvedState #SpringGreen
+
+'Статусы ниже собраны в группу, 
+'т.к. появляются только при определенных условиях
+state "Если маршрут включен" as WithRoutes {
+    state "Начало настраиваемого маршрута" as RouteStart <<entryPoint>>
+    state "На согласовании у HR\nfor_hr_approval" as HRApproveState #Darkorange
+    state "На согласовании\nу Руководителя\nfor_manager_approval" as ManagerApproveState #Darkorange
+    state "Заявление согласовано\nready_for_work" as ReadyForWorkState  #SpringGreen
+    state "Конец настраиваемого маршрута" as RouteEnd <<exitPoint>>
+    RouteStart -> HRApproveState
+    RouteStart -> ManagerApproveState
+    HRApproveState -down-> ManagerApproveState
+    ManagerApproveState -down-> ReadyForWorkState
+    HRApproveState - -> ReadyForWorkState
+    ReadyForWorkState -down-> RouteEnd
+    
+}
+
+[*] -right-> NewState
+[*] -> RouteStart
+[*] - -> WatingState
+
+NewState - -> WatingState
+NewState -down-> RouteStart
+
+WatingState - - -> RejectedState
+WatingState -down-> CalledBackState
+WatingState - -> InProgressState
+
+InProgressState -right-> RejectedState
+InProgressState -down-> ResolvedState
+
+RouteEnd - -> RejectedState
+RouteEnd -down-> CalledBackState
+RouteEnd -left- - -> InProgressState
+
+RejectedState -down- -> [*]
+CalledBackState -> [*]
+ResolvedState -> [*]
+
+note right of NewState
+Только для сервиса 
+«<i>Автоматическое создание заявок</i>»
+end note
+
+note left of WatingState
+Если у сервиса выключена 
+настройка маршрутов
+<b>ИЛИ</b>
+<b>(</b>Если включена
+<b>И</b>
+в маршруте все настраиваемые 
+шаги выключены<b>)</b>
+end note
+
+note right of HRApproveState
+Если при создании заявки 
+у сервиса была включена 
+настройка машрута
+<b>И</b>
+в маршруте (из настроек или по умолчанию)
+есть шаг согласования HR
+end note
+
+note right of ManagerApproveState
+Если в заявке сохранен маршрут, 
+который содержит шаг 
+согласования Руководителем
+(шаг появится аналогично примечанию выше)
+end note
+
+legend right
+Цвета статусов
+соответствуют дизайну UI
+end legend
+
+@enduml
+
+@startuml request_statuses_example
+
+hide empty description
+
+skinparam BackgroundColor SeaShell
+skinparam StateBackgroundColor LightSkyBlue
+skinparam StateBorderColor RoyalBlue
+skinparam StateFontStyle bold
+skinparam NoteFontSize 9
+skinparam NoteBackgroundColor Cornsilk
+skinparam ArrowColor RoyalBlue
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+
+state "Новая\nnew" as NewState
+state "Ожидает обработки\nwaiting" as WatingState #DarkGray
+state "Отозвано\ncalled_back" as CalledBackState #DarkGray : Если предыдущий шаг\nбыл первым в маршруте
+
+state "Отклонено\nrejected" as RejectedState #Tomato
+state "В работе у HR\nin_progress" as InProgressState  #Darkorange
+state "Выполнено\nresolved" as ResolvedState #SpringGreen
+
+state "Если маршрут включен" as WithRoutes {
+    state "Начало настраиваемого маршрута" as RouteStart <<entryPoint>>
+    state "На согласовании у HR\nfor_hr_approval" as HRApproveState #Darkorange
+    state "На согласовании\nу Руководителя\nfor_manager_approval" as ManagerApproveState #Darkorange
+    state "Заявление согласовано\nready_for_work" as ReadyForWorkState  #SpringGreen
+    state "Конец настраиваемого маршрута" as RouteEnd <<exitPoint>>
+    RouteStart -> HRApproveState
+    RouteStart -> ManagerApproveState
+    HRApproveState -down-> ManagerApproveState
+    ManagerApproveState -down-> ReadyForWorkState
+    HRApproveState - -> ReadyForWorkState
+    ReadyForWorkState -down-> RouteEnd
+    
+}
+
+[*] -right-> NewState
+[*] -> RouteStart
+[*] - -> WatingState
+
+NewState - -> WatingState
+NewState -down-> RouteStart
+
+WatingState - - -> RejectedState
+WatingState -down-> CalledBackState
+WatingState - -> InProgressState
+
+InProgressState -right-> RejectedState
+InProgressState -down-> ResolvedState
+
+RouteEnd - -> RejectedState
+RouteEnd -down-> CalledBackState
+RouteEnd -left- - -> InProgressState
+
+RejectedState -down- -> [*]
+CalledBackState -> [*]
+ResolvedState -> [*]
+
+note right of NewState
+Только для сервиса 
+«<i>Автоматическое создание заявок</i>»
+end note
+
+note left of WatingState
+Если у сервиса выключена 
+настройка маршрутов
+<b>ИЛИ</b>
+<b>(</b>Если включена
+<b>И</b>
+в маршруте все настраиваемые 
+шаги выключены<b>)</b>
+end note
+
+note right of HRApproveState
+Если при создании заявки 
+у сервиса была включена 
+настройка машрута
+<b>И</b>
+в маршруте (из настроек или по умолчанию)
+есть шаг согласования HR
+end note
+
+note right of ManagerApproveState
+Если в заявке сохранен маршрут, 
+который содержит шаг 
+согласования Руководителем
+(шаг появится аналогично примечанию выше)
+end note
+
+legend right
+Цвета статусов
+соответствуют дизайну UI
+end legend
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>
