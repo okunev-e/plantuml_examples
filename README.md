@@ -12,4 +12,4 @@ Diagram code: [states_diagram_exmple.puml](https://github.com/okunev-e/plantuml_
 
 Diagram was created with Visual Studio Code.
 
-![Пример диаграммы](https://github.com/okunev-e/plantuml_examples/blob/main/request_statuses_example.svg)
+<img src="https://github.com/okunev-e/plantuml_examples/blob/main/request_statuses_example.svg" width="400"/>
