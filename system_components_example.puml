@@ -1,0 +1,141 @@
+@startuml system_components_example
+'Версия: 1.0
+'Автор: Окунев Е.Е. (okunev.evgeni@gmail.com)
+
+
+skinparam DefaultTextAlignment center
+skinparam BackgroundColor SeaShell
+skinparam ranksep 10
+
+skinparam databaseBackgroundColor SteelBlue
+skinparam databaseFontColor White
+
+skinparam PackageBackgroundColor White
+
+skinparam NodeBackgroundColor #326ce5
+'В Visual Studio Code не сработала эта настройка
+'Пришлось цвет текста дополнительно прописать
+'На https://www.planttext.com/ отображается корректно
+skinparam NodeFontColor White
+
+<style>
+    database {
+        HyperlinkColor #FFFFFF
+    }
+</style>
+
+package "Портал" as user_portal {
+    
+    node "<color:white>HR сервисы</color>\n\n<img:imgs/docker_40.png>" as node_hrs {
+        
+        package "HR сервисы" as hrservices {
+            rectangle "<color:DarkGreen>Django</color>" as dj_hrs{
+                [Service hr-services]
+            } 
+            database "[[https://www.postgresql.org/ PostgreSQL]]\n\n<img:imgs/elephant.png>" as db_hrs
+            [Service hr-services] -down- db_hrs
+        }
+    }
+
+    together {
+        node "<color:white>Уведомления</color>\n\n<img:imgs/docker_40.png>" as node_ntf {
+            package "Уведомления" as pnotifications {
+                rectangle "<color:DarkGreen>Django</color>" as dj_ntf{
+                    [Service notifications]
+                }
+                database "[[https://www.postgresql.org/ PostgreSQL]]\n\n<img:imgs/elephant.png>" as db_notifications
+                [Service notifications] -down- db_notifications
+            }
+        }
+        
+        node "<color:white>Авторизация</color>\n\n<img:imgs/docker_40.png>" as node_auth {
+            package "Авторизация" as keycloak {
+                [Service keycloak]
+                database "PostgreSQL\n\n<img:imgs/elephant.png>" as db_keycloak
+                [Service keycloak] -down- db_keycloak
+            }
+        }
+    }
+
+    together {
+        node "<color:white>Брокер сообщений</color>\n\n<img:imgs/docker_40.png>" as node_kafka {
+            package "Брокер сообщений Kafka" as kafka {
+                component "Брокер сообщений Apache Kafka\n<img:https://kafka.apache.org/logos/kafka_logo--simple.png>" as apache_kafka {
+                    queue "Уведомления" as q_ntf
+                    queue "Данные для кадровых сервисов" as q_hrs
+                 }
+            }
+        }
+
+        node "<color:white>Интеграции</color>\n\n<img:imgs/docker_40.png>" as node_int{
+            package "Интеграции" as sfbintegration {
+                [Service integrations]
+                database "PostgreSQL\n\n<img:imgs/elephant.png>" as db_integrations
+                [Service integrations] -down- db_integrations
+            }
+        }
+    }
+
+    [Service hr-services] --> q_hrs: mq
+    [Service hr-services] ---> q_ntf: mq
+    [Service notifications] -> q_ntf: mq
+    [Service integrations] ---> q_hrs: mq
+    [Service integrations] <-down--- [Service notifications]: web
+
+    node "<color:white>Сервис электронной подписи</color>\n\n<img:imgs/docker_40.png>" {
+        package "Сервис электронной подписи" as kedo {
+            rectangle "FastAPI" {
+                [Service kedo-events]
+            }
+            database "PostgreSQL\n\n<img:imgs/elephant.png>" as db_kedo_events
+            [Service kedo-events] -down- db_kedo_events
+        }
+    }
+    [Service integrations] <-> [Service kedo-events]: web
+
+    together {
+        node "<color:white>Файловое хранилище</color>\n\n<img:imgs/docker_40.png>" {
+            package "Файловое хранилище" as filestorage {
+                rectangle "<color:DarkGreen>Django</color>" as dj_fst {
+                    [Service filestorage]
+                }
+                storage "S3 Minio" as s3_minio
+                [Gotenberg]
+                database "PostgreSQL\n\n<img:imgs/elephant.png>" as db_filestorage
+                [Service filestorage] -down- db_filestorage
+                [Service filestorage] -down- s3_minio
+                [Service filestorage] -down- [Gotenberg]
+            }
+        }
+
+        node "<color:white>Словари</color>\n\n<img:imgs/docker_40.png>" as node_dc {
+            package "Словари" as dicts {
+                component "<color:DarkGreen>Django</color>" as dj_dic{
+                    [Service dictionaries]
+                }
+                database "[[https://www.postgresql.org/ PostgreSQL]]\n\n<img:imgs/elephant.png>" as db_dicts
+                [Service dictionaries] -down- db_dicts
+            }
+        }
+    }
+    [Service integrations] ---> [Service filestorage]: web
+    [Service hr-services] --> [Service filestorage]: web
+    [Service hr-services] --> s3_minio: web
+    [Service kedo-events] --> [Service filestorage]: web
+    [Service integrations] --> [Service dictionaries]: web
+    [Service hr-services] ---> [Service dictionaries]: web
+    [Service integrations] ---> [Service keycloak]: web
+    [Service integrations] ---> db_keycloak
+}
+
+package "Корпоративная шина" as ebs {
+    [Service EBS]
+}
+[Service integrations] -up--> [Service EBS]: web
+
+package "Почтовый сервер" as exchange {
+    [Service exchange]
+}
+[Service integrations] -up--> [Service exchange]: smtp
+
+@enduml
