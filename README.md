@@ -1,7 +1,15 @@
 # Примеры диаграмм на PlantUML
-Примеры UML-диаграмм с использованием удобного инструмента для быстрого создания диаграмм с помощью текста 🌱 [PlantUML](https://plantuml.com/ru/).
+Примеры UML-диаграмм и других схем с использованием удобного инструмента для быстрого создания диаграмм с помощью текста 🌱 [PlantUML](https://plantuml.com/ru/).
+
+При добавлении приведенных здесь диаграмм и схем в Confluence (например, через макрос PlantUML Macro) обязательно посмотрите их через предпросмотр страницы перед публикацией. Сервис рендеринга диаграмм в Вашем Confluence может их визуалзировать по-другому. И, возможно, надо будет их отредактировать.
+
+Все диаграммы и схемы проверены на [planttext.com](https://www.planttext.com/).
 
 There are UML-diagrams examples using an easy tool for fast diagram creating by text 🌱 [PlantUML](https://plantuml.com/).
+
+If you add these diagrams and schemas to Confluence (for example, through the PlantUML Macro), preview before publishing. The PlantUML rendering service in your Confluence may render it differently. And You may need to edit it.
+
+All diagrams and schemas have been validated with [planttext.com](https://www.planttext.com/).
 
 ### Диаграмма статусов обработки заявки
 Исходный код диаграммы: [states_diagram_exmple.puml](https://github.com/okunev-e/plantuml_examples/blob/main/states_diagram_exmple.puml)
