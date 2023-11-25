@@ -1,9 +1,10 @@
 # Примеры диаграмм на PlantUML
+---
 #### Содержание
 - [Диаграмма статусов обработки заявки](#statuses)
 - [Диаграмма вариантов использования](#usecases)
 - [Схема компонентов системы](#system_components)
-
+---
 
 Примеры UML-диаграмм и других схем с использованием удобного инструмента для быстрого создания диаграмм с помощью текста 🌱 [PlantUML](https://plantuml.com/ru/).
 
@@ -17,9 +18,8 @@ If you add these diagrams and schemas to Confluence (for example, through the Pl
 
 All diagrams and schemas have been validated with [planttext.com](https://www.planttext.com/).
 
-<a name="statuses" />
-
-### Диаграмма статусов обработки заявки
+---
+### <a name="statuses">Диаграмма статусов обработки заявки</a>
 Исходный код диаграммы: [states_diagram_exmple.puml](https://github.com/okunev-e/plantuml_examples/blob/main/states_diagram_exmple.puml)
 
 Диаграмма создана с помощью Visual Studio Code.
@@ -30,9 +30,8 @@ Diagram was created with Visual Studio Code.
 
 <img src="https://github.com/okunev-e/plantuml_examples/blob/main/request_statuses_example.svg" width="400"/>
 
-<a name="usecases" />
-
-### Диаграмма вариантов использования
+---
+### <a name="usecases">Диаграмма вариантов использования</a>
 Исходный код диаграммы: [use_case_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/use_case_diagram_example.puml)
 
 Диаграмма создана с помощью Visual Studio Code.
@@ -43,9 +42,8 @@ Diagram was created with Visual Studio Code.
 
 <img src="https://github.com/okunev-e/plantuml_examples/blob/main/certificate_signing_example.svg" width="600"/>
 
-<a name="system_components" />
-
-### Схема компонентов системы
+---
+### <a name="system_components">Схема компонентов системы</a>
 Исходный код диаграммы: [system_components_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/system_components_example.puml)
 
 Диаграмма создана с помощью Visual Studio Code.
