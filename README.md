@@ -19,8 +19,19 @@ Diagram was created with Visual Studio Code.
 
 Диаграмма создана с помощью Visual Studio Code.
 
-Diagram code:  [use_case_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/use_case_diagram_example.puml)
+Diagram code: [use_case_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/use_case_diagram_example.puml)
 
 Diagram was created with Visual Studio Code.
 
 <img src="https://github.com/okunev-e/plantuml_examples/blob/main/certificate_signing_example.svg" width="600"/>
+
+### Схема компонентов системы
+Исходный код диаграммы: [system_components_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/system_components_example.puml)
+
+Диаграмма создана с помощью Visual Studio Code.
+
+Diagram code: [system_components_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/system_components_example.puml)
+
+Diagram was created with Visual Studio Code.
+
+<img src="https://github.com/okunev-e/plantuml_examples/blob/main/system_components_example.svg" width="600"/>
