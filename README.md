@@ -4,6 +4,7 @@
 - [Диаграмма статусов обработки заявки](#statuses)
 - [Диаграмма вариантов использования](#usecases)
 - [Схема компонентов системы](#system_components)
+- [Диаграмма "сущность-связь"](#entity_relasionship)
 ---
 
 Примеры UML-диаграмм и других схем с использованием удобного инструмента для быстрого создания диаграмм с помощью текста 🌱 [PlantUML](https://plantuml.com/ru/).
@@ -53,3 +54,19 @@ Diagram code: [system_components_example.puml](https://github.com/okunev-e/plant
 Diagram was created with Visual Studio Code.
 
 <img src="https://github.com/okunev-e/plantuml_examples/blob/main/system_components_example.svg" width="600"/>
+
+---
+### <a name="entity_relasionship">Диаграмма "сущность-связь"</a>
+Диаграмма "Сущность-связь" (ERD, Entity Relationship Diagram) не является диаграммой UML, но её наиболее часто используют в проектировании реляционных баз данных.
+
+Исходный код диаграммы: [entity_relation_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/entity_relation_diagram_example.puml)
+
+Диаграмма создана с помощью Visual Studio Code.
+
+Diagram "Entity-Relaton" (ERD, Entity Relationship Diagram) is not UML diagram. But it's used the most commonly in relational database desing.
+
+Diagram code: [entity_relation_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/entity_relation_diagram_example.puml)
+
+Diagram was created with Visual Studio Code.
+
+<img src="https://raw.githubusercontent.com/okunev-e/plantuml_examples/main/user_requests_erd_example.svg" width="600"/>
