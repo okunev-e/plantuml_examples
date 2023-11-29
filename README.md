@@ -5,6 +5,7 @@
 - [Диаграмма вариантов использования](#usecases)
 - [Схема компонентов системы](#system_components)
 - [Диаграмма "сущность-связь"](#entity_relasionship)
+- [Диаграмма последовательности](#sequence_diagram)
 ---
 
 Примеры UML-диаграмм и других схем с использованием удобного инструмента для быстрого создания диаграмм с помощью текста 🌱 [PlantUML](https://plantuml.com/ru/).
@@ -70,3 +71,18 @@ Diagram code: [entity_relation_diagram_example.puml](https://github.com/okunev-e
 Diagram was created with Visual Studio Code.
 
 <img src="https://raw.githubusercontent.com/okunev-e/plantuml_examples/main/user_requests_erd_example.svg" width="600"/>
+
+### <a name="sequence_diagram">Диаграмма последовательности</a>
+Диаграмма последовательности (Sequence Diagram, SD) - самая используемая диаграмма для наглядных описания и документации процесса взаимодействия пользователей с системой и компонентов системы между собой.
+
+Исходный код диаграммы: [sequence_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/sequence_diagram_example.puml)
+
+Диаграмма создана с помощью Visual Studio Code.
+
+Sequence Diagram (SD) is the most used diagram for visually describing and documenting the process of interaction between users and the system and system components with each other.
+
+Diagram code: [sequence_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/sequence_diagram_example.puml)
+
+Diagram was created with Visual Studio Code.
+
+<img src="https://raw.githubusercontent.com/okunev-e/plantuml_examples/main/sequence_diagram_example.svg" width="600"/>
