@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="781px" preserveAspectRatio="none" style="width:854px;height:781px;background:#FFF5EE;" version="1.1" viewBox="0 0 854 781" width="854px" zoomAndPan="magnify"><defs/><g><rect fill="#FFF5EE" height="770.4355" style="stroke:#000000;stroke-width:1.5;" width="839.5" x="9" y="5"/><path d="M569,5 L569,19.0762 L559,29.0762 L9,29.0762 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000080" font-family="Consolas" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="20" x="12" y="22.4443">SD</text><text fill="#000080" font-family="Consolas" font-size="18" lengthAdjust="spacing" textLength="520" x="42" y="22.4443">Диаграмма создания заявки с подписанием заявления ЭП</text><rect fill="#FFFFFF" height="601.8984" style="stroke:#181818;stroke-width:1.0;" width="10" x="260.5" y="146.0371"/><rect fill="#FFFFFF" height="260.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="455.5" y="201.7402"/><rect fill="#FFFFFF" height="121.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="455.5" y="579.8262"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="617.5" y="610.1777"/><rect fill="#FFC0CB" height="339.2188" style="stroke:#000000;stroke-width:1.5;" width="732.5" x="15" y="161.0371"/><rect fill="#C9FFC9" height="186.4609" style="stroke:none;stroke-width:1.0;" width="732.5" x="15" y="313.7949"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="74" x2="74" y1="113.6855" y2="765.9355"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="265" x2="265" y1="113.6855" y2="765.9355"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="460.5" x2="460.5" y1="113.6855" y2="765.9355"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="622.5" x2="622.5" y1="113.6855" y2="765.9355"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="693.5" x2="693.5" y1="113.6855" y2="765.9355"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="794.5" x2="794.5" y1="113.6855" y2="765.9355"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="25" y="110.6094">Пользователь</text><ellipse cx="74.5" cy="44.5762" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M74.5,52.5762 L74.5,79.5762 M61.5,60.5762 L87.5,60.5762 M74.5,79.5762 L61.5,94.5762 M74.5,79.5762 L87.5,94.5762 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="238.5" y="93">Портал</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="184" y="110.6094">Форма создания заявки</text><path d="M245,50.4668 L245,74.4668 M245,62.4668 L262,62.4668 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="274" cy="62.4668" fill="#E2E2F0" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="410.5" y="63.4668"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="417.5" y="85">Микросервис</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="439" y="102.6094">заявок</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="610.5" y="110.6094">БД</text><path d="M604.5,60.0762 C604.5,50.0762 622.5,50.0762 622.5,50.0762 C622.5,50.0762 640.5,50.0762 640.5,60.0762 L640.5,86.0762 C640.5,96.0762 622.5,96.0762 622.5,96.0762 C622.5,96.0762 604.5,96.0762 604.5,86.0762 L604.5,60.0762 " fill="#4682B4" style="stroke:#181818;stroke-width:1.5;"/><path d="M604.5,60.0762 C604.5,70.0762 622.5,70.0762 622.5,70.0762 C622.5,70.0762 640.5,70.0762 640.5,60.0762 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="650.5" y="63.4668"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="661" y="85">Файловое</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="657.5" y="102.6094">хранилище</text><path d="M752.5,68.4668 L836.5,68.4668 C841.5,68.4668 841.5,91.0762 841.5,91.0762 C841.5,91.0762 841.5,113.6855 836.5,113.6855 L752.5,113.6855 C747.5,113.6855 747.5,91.0762 747.5,91.0762 C747.5,91.0762 747.5,68.4668 752.5,68.4668 " fill="#E2E2F0" style="stroke:#181818;stroke-width:0.5;"/><path d="M836.5,68.4668 C831.5,68.4668 831.5,91.0762 831.5,91.0762 C831.5,113.6855 836.5,113.6855 836.5,113.6855 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="766" y="88">Брокер</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="752.5" y="105.6094">сообщений</text><rect fill="#FFFFFF" height="601.8984" style="stroke:#181818;stroke-width:1.0;" width="10" x="260.5" y="146.0371"/><rect fill="#FFFFFF" height="260.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="455.5" y="201.7402"/><rect fill="#FFFFFF" height="121.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="455.5" y="579.8262"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="617.5" y="610.1777"/><polygon fill="#181818" points="248.5,142.0371,258.5,146.0371,248.5,150.0371" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="74.5" x2="254.5" y1="146.0371" y2="146.0371"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="15" x="113" y="141.1807">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="132" y="141.1807">вводит данные</text><path d="M15,161.0371 L76,161.0371 L76,169.3887 L66,179.3887 L15,179.3887 L15,161.0371 " fill="#FA8072" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="339.2188" style="stroke:#000000;stroke-width:1.5;" width="732.5" x="15" y="161.0371"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="30" y="175.5322">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="4" x="91" y="174.4561">[</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="151" x="95" y="174.4561">Ошибка валидация данных</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="4" x="246" y="174.4561">]</text><polygon fill="#181818" points="443.5,197.7402,453.5,201.7402,443.5,205.7402" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="270.5" x2="449.5" y1="201.7402" y2="201.7402"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="316" y="196.8838">[11]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="342" y="196.8838">web-запрос</text><line style="stroke:#181818;stroke-width:1.0;" x1="465.5" x2="507.5" y1="232.0918" y2="232.0918"/><line style="stroke:#181818;stroke-width:1.0;" x1="507.5" x2="507.5" y1="232.0918" y2="245.0918"/><line style="stroke:#181818;stroke-width:1.0;" x1="466.5" x2="507.5" y1="245.0918" y2="245.0918"/><polygon fill="#181818" points="476.5,241.0918,466.5,245.0918,476.5,249.0918" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="472.5" y="227.2354">[21]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="498.5" y="227.2354">проверить данные</text><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="275.4434" y2="271.4434"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="275.4434" y2="279.4434"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="270.5" x2="454.5" y1="275.4434" y2="275.4434"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="282.5" y="270.5869">[31]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="308.5" y="270.5869">сообщение об ошибке</text><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="305.7949" y2="301.7949"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="305.7949" y2="309.7949"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="74.5" x2="259.5" y1="305.7949" y2="305.7949"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="87" y="300.9385">[41]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="113" y="300.9385">сообщение об ошибке</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="747.5" y1="314.7949" y2="314.7949"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="4" x="20" y="326.2139">[</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="163" x="24" y="326.2139">Валидация данных пройдена</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="4" x="187" y="326.2139">]</text><line style="stroke:#181818;stroke-width:1.0;" x1="465.5" x2="507.5" y1="368.334" y2="368.334"/><line style="stroke:#181818;stroke-width:1.0;" x1="507.5" x2="507.5" y1="368.334" y2="381.334"/><line style="stroke:#181818;stroke-width:1.0;" x1="466.5" x2="507.5" y1="381.334" y2="381.334"/><polygon fill="#181818" points="476.5,377.334,466.5,381.334,476.5,385.334" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="472.5" y="355.3018">[51]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="500.5" y="347.126">найти и заполнить</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="498.5" y="363.4775">шаблон заявления</text><rect fill="#FFEFD5" height="45.2188" style="stroke:#000000;stroke-width:1.5;" width="333" x="407.5" y="389.334"/><path d="M407.5,389.334 L472.5,389.334 L472.5,398.334 L462.5,408.334 L407.5,408.334 L407.5,389.334 " fill="#F5DEB3" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="20" x="420.5" y="405.8672">ref</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="181" x="483.5" y="426.8672">Создать и сохранить PDF</text><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="461.9043" y2="457.9043"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="461.9043" y2="465.9043"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="270.5" x2="459.5" y1="461.9043" y2="461.9043"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="314" y="457.0479">[61]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="340" y="457.0479">вернуть PDF</text><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="492.2559" y2="488.2559"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="492.2559" y2="496.2559"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="74.5" x2="259.5" y1="492.2559" y2="492.2559"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="107" y="487.3994">[71]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="133" y="487.3994">отобразить PDF</text><rect fill="#FFEFD5" height="45.2188" style="stroke:#000000;stroke-width:1.5;" width="718.5" x="22" y="507.2559"/><path d="M22,507.2559 L87,507.2559 L87,516.2559 L77,526.2559 L22,526.2559 L22,507.2559 " fill="#F5DEB3" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="20" x="35" y="523.7891">ref</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="170" x="296.25" y="544.7891">Подписать документ ЭП</text><polygon fill="#181818" points="443.5,575.8262,453.5,579.8262,443.5,583.8262" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="270.5" x2="449.5" y1="579.8262" y2="579.8262"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="280.5" y="574.9697">[81]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="306.5" y="574.9697">передать результат ЭП</text><polygon fill="#181818" points="605.5,606.1777,615.5,610.1777,605.5,614.1777" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="465.5" x2="611.5" y1="610.1777" y2="610.1777"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="483" y="605.3213">[91]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="509" y="605.3213">создать заявку</text><line style="stroke:#181818;stroke-width:1.0;" x1="466.5" x2="476.5" y1="640.5293" y2="636.5293"/><line style="stroke:#181818;stroke-width:1.0;" x1="466.5" x2="476.5" y1="640.5293" y2="644.5293"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="465.5" x2="621.5" y1="640.5293" y2="640.5293"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="518.5" y="635.6729">[101]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="18" x="551.5" y="635.6729">ОК</text><line style="stroke:#181818;stroke-width:1.0;" x1="792.5" x2="782.5" y1="670.8809" y2="666.8809"/><line style="stroke:#181818;stroke-width:1.0;" x1="792.5" x2="782.5" y1="670.8809" y2="674.8809"/><line style="stroke:#181818;stroke-width:1.0;" x1="465.5" x2="793.5" y1="670.8809" y2="670.8809"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="542" y="666.0244">[111]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="575" y="666.0244">отправить уведомления</text><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="701.2324" y2="697.2324"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.5" x2="281.5" y1="701.2324" y2="705.2324"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="270.5" x2="459.5" y1="701.2324" y2="701.2324"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="339.5" y="696.376">[121]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="372.5" y="696.376">OK</text><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="747.9355" y2="743.9355"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="85.5" y1="747.9355" y2="751.9355"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="74.5" x2="264.5" y1="747.9355" y2="747.9355"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="89" y="734.9033">[131]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="122" y="726.7275">отобразить успешное</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="129.5" y="743.0791">сохранение заявки</text><!--MD5=[52fdbe97f3c3062aebd06158d9c7f48b]
+@startuml sequence_diagram_example
+'Версия: 1.0
+'Автор: Окунев Е.Е. (okunev.evgeni@gmail.com)
+
+skinparam style strictuml
+
+skinparam BackgroundColor SeaShell
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+skinparam SequenceMessageAlignment center
+
+skinparam sequenceReference {
+    HeaderBackgroundColor WHeat
+    BackgroundColor PapayaWhip
+    FontStyle bold
+    FontSize 14
+}
+
+skinparam DatabaseBackgroundColor SteelBlue
+
+mainframe <color:Navy><size:18><font:Consolas>**SD** Диаграмма создания заявки с подписанием заявления ЭП
+
+    actor "Пользователь" as user
+
+    boundary "Портал\nФорма создания заявки" as website
+
+    participant "Микросервис\nзаявок" as requests_service
+
+    database "БД" as db
+
+    participant "Файловое\nхранилище" as filestorage
+
+    queue "Брокер\nсообщений" as notifications
+
+    autonumber 1 10 "[#]"
+    user -> website : вводит данные
+    activate website
+alt#Salmon #Pink **Ошибка валидация данных**
+    website -> requests_service : web-запрос
+    activate requests_service
+    requests_service ->  requests_service : проверить данные
+    requests_service - ->> website : сообщение об ошибке
+    website - ->> user : сообщение об ошибке
+    'deactivate website
+else #TECHNOLOGY **Валидация данных пройдена**
+    requests_service ->  requests_service : найти и заполнить\nшаблон заявления
+ref over requests_service, filestorage : Создать и сохранить PDF
+    requests_service - ->>  website : вернуть PDF
+    deactivate requests_service
+    website - ->> user : отобразить PDF    
+end
+
+ref over user, filestorage : Подписать документ ЭП
+    
+    website -> requests_service : передать результат ЭП
+    activate requests_service
+    requests_service -> db : создать заявку
+    activate db
+    db - ->> requests_service : ОК
+    deactivate db
+    requests_service ->> notifications : отправить уведомления
+    requests_service - ->> website : OK
+    deactivate requests_service
+    website - ->> user : отобразить успешное\nсохранение заявки
+    deactivate website
+
+@enduml
+
+@startuml sequence_diagram_example
+
+skinparam style strictuml
+
+skinparam BackgroundColor SeaShell
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+skinparam SequenceMessageAlignment center
+
+skinparam sequenceReference {
+    HeaderBackgroundColor WHeat
+    BackgroundColor PapayaWhip
+    FontStyle bold
+    FontSize 14
+}
+
+skinparam DatabaseBackgroundColor SteelBlue
+
+mainframe <color:Navy><size:18><font:Consolas>**SD** Диаграмма создания заявки с подписанием заявления ЭП
+
+    actor "Пользователь" as user
+
+    boundary "Портал\nФорма создания заявки" as website
+
+    participant "Микросервис\nзаявок" as requests_service
+
+    database "БД" as db
+
+    participant "Файловое\nхранилище" as filestorage
+
+    queue "Брокер\nсообщений" as notifications
+
+    autonumber 1 10 "[#]"
+    user -> website : вводит данные
+    activate website
+alt#Salmon #Pink **Ошибка валидация данных**
+    website -> requests_service : web-запрос
+    activate requests_service
+    requests_service ->  requests_service : проверить данные
+    requests_service - ->> website : сообщение об ошибке
+    website - ->> user : сообщение об ошибке
+else #TECHNOLOGY **Валидация данных пройдена**
+    requests_service ->  requests_service : найти и заполнить\nшаблон заявления
+ref over requests_service, filestorage : Создать и сохранить PDF
+    requests_service - ->>  website : вернуть PDF
+    deactivate requests_service
+    website - ->> user : отобразить PDF    
+end
+
+ref over user, filestorage : Подписать документ ЭП
+    
+    website -> requests_service : передать результат ЭП
+    activate requests_service
+    requests_service -> db : создать заявку
+    activate db
+    db - ->> requests_service : ОК
+    deactivate db
+    requests_service ->> notifications : отправить уведомления
+    requests_service - ->> website : OK
+    deactivate requests_service
+    website - ->> user : отобразить успешное\nсохранение заявки
+    deactivate website
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

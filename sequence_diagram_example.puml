@@ -1,0 +1,69 @@
+@startuml sequence_diagram_example
+'Версия: 1.0
+'Автор: Окунев Е.Е. (okunev.evgeni@gmail.com)
+
+skinparam style strictuml
+
+skinparam BackgroundColor SeaShell
+skinparam LegendBackgroundColor MistyRose
+skinparam LegendBorderColor PaleVioletRed
+skinparam LegendFontColor PaleVioletRed
+
+skinparam SequenceMessageAlignment center
+
+skinparam sequenceReference {
+    HeaderBackgroundColor WHeat
+    BackgroundColor PapayaWhip
+    FontStyle bold
+    FontSize 14
+}
+
+skinparam DatabaseBackgroundColor SteelBlue
+
+mainframe <color:Navy><size:18><font:Consolas>**SD** Диаграмма создания заявки с подписанием заявления ЭП
+
+    actor "Пользователь" as user
+
+    boundary "Портал\nФорма создания заявки" as website
+
+    participant "Микросервис\nзаявок" as requests_service
+
+    database "БД" as db
+
+    participant "Файловое\nхранилище" as filestorage
+
+    queue "Брокер\nсообщений" as notifications
+
+    autonumber 1 10 "[#]"
+    user -> website : вводит данные
+    activate website
+alt#Salmon #Pink **Ошибка валидация данных**
+    website -> requests_service : web-запрос
+    activate requests_service
+    requests_service ->  requests_service : проверить данные
+    requests_service -->> website : сообщение об ошибке
+    website -->> user : сообщение об ошибке
+    'deactivate website
+else #TECHNOLOGY **Валидация данных пройдена**
+    requests_service ->  requests_service : найти и заполнить\nшаблон заявления
+ref over requests_service, filestorage : Создать и сохранить PDF
+    requests_service -->>  website : вернуть PDF
+    deactivate requests_service
+    website -->> user : отобразить PDF    
+end
+
+ref over user, filestorage : Подписать документ ЭП
+    
+    website -> requests_service : передать результат ЭП
+    activate requests_service
+    requests_service -> db : создать заявку
+    activate db
+    db -->> requests_service : ОК
+    deactivate db
+    requests_service ->> notifications : отправить уведомления
+    requests_service -->> website : OK
+    deactivate requests_service
+    website -->> user : отобразить успешное\nсохранение заявки
+    deactivate website
+
+@enduml
