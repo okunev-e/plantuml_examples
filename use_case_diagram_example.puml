@@ -41,6 +41,7 @@ rectangle "Кадровые сервисы" {
     Полномочия
     "
     (Удалить роль) as DelRole
+    (Настроить подпись справок в сервисе) as SetSignInServices
     (Включить подпись справок в сервисе) as FLAGES
     (Выключить подпись справок в сервисе) as FLAGR
     usecase SignCerts as "[[https://github.com/okunev-e/plantuml_examples/tree/main Подписать справки УКЭП]]
@@ -48,6 +49,10 @@ rectangle "Кадровые сервисы" {
     <b>Точки расширения</b>
     Выбор
     "
+    Note right of SignCerts
+    <b>Условние:</b> пользователь открыл список УКЭП
+    <b>Точка расширения:</b> Выбор
+    end Note
     ([[https://github.com/okunev-e/plantuml_examples/tree/main Создать заявку на справку с подписью]]) as CreareReq
     usecase ReqCallback as "Отозвать заявку
     --
@@ -61,7 +66,11 @@ rectangle "Кадровые сервисы" {
     (Удалить файлы для подписи) as DelFiles
     (Скачать zip с файлами+подписи) as DownloadZIP
     (Посмотреть архив заявок)
-    (Посмотреть карточку заявки)
+    usecase LookAtCard as "Посмотреть карточку заявки
+    --
+    <b>Точки расширения</b>
+    Скачать файлы
+    "
     usecase "[[https://github.com/okunev-e/plantuml_examples/tree/main Вернуть заявку на доработку (отклонить)]]" as ReturnRequestToHR
     (Добавить комментарий) as AddComment
 }
@@ -87,13 +96,14 @@ webportal_user <|-- hr
 webportal_user <|-- signer
 
 'Сценарии для технического админа
-techadm -- FLAGES
-techadm -- FLAGR
+techadm -- SetSignInServices
+SetSignInServices <|-- FLAGES 
+SetSignInServices <|-- FLAGR
 
 'Сценарии для Работодателя
 signer -- SignCerts
 signer -- (Посмотреть архив заявок)
-signer -- (Посмотреть карточку заявки)
+signer -- LookAtCard
 signer -- SetEQES
 signer -- DelEQES
 signer -- ReturnRequestToHR
@@ -107,23 +117,24 @@ TakeRole <.down. RolePerms: <<дополнить>>
 worker -- CreareReq
 worker -- ReqCallback
 worker -- (Посмотреть архив заявок)
-worker -- (Посмотреть карточку заявки)
+worker -- LookAtCard
 
 'Сценарии для HR
 hr --- (Отклонить заявку)
 hr -- SendToSigner
 hr -- (Посмотреть архив заявок)
-hr -- (Посмотреть карточку заявки)
+hr -- LookAtCard
 
 'Связи между сценариями
 SendToSigner .down.> SetSigner: <<включить>>
 SendToSigner .down.> AddFiles: <<включить>>
 SendToSigner .down.> DelFiles: <<включить>>
 SignCerts ..> SelectEQES: <<включить>>
-(Посмотреть карточку заявки) <.down. DownloadZIP:  <<дополнить>>
-DelEQES <.down. SelectEQES: <<дополнить>>
+LookAtCard <.down. DownloadZIP:  <<дополнить>>
+DelEQES .down.> SelectEQES: <<включить>>
 ReqCallback <.down.. AddComment: <<дополнить>>
 (Отклонить заявку) ..down.> AddComment: <<включить>>
 ReturnRequestToHR ..down.> AddComment: <<включить>>
+
 
 @enduml
