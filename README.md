@@ -64,7 +64,7 @@ Diagram was created with Visual Studio Code.
 
 Диаграмма создана с помощью Visual Studio Code.
 
-Diagram "Entity-Relaton" (ERD, Entity Relationship Diagram) is not UML diagram. But it's used the most commonly in relational database desing.
+Diagram "Entity-Relation" (ERD, Entity Relationship Diagram) is not UML diagram. But it's used the most commonly in relational database desing.
 
 Diagram code: [entity_relation_diagram_example.puml](https://github.com/okunev-e/plantuml_examples/blob/main/entity_relation_diagram_example.puml)
 
